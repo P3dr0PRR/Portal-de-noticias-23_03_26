@@ -1,5 +1,5 @@
 function App() {
-  return <main></main>;
+  return <main className="bg-color min-h-screen"></main>;
 }
 
 export default App;

@@ -1,20 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-light: #60a5fa;
+  --color-brand-dark: #1d4ed8;
+  --color-bg-main: #0f172a;
+  --color-stroke-main: #1e293b;
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #cbd5e1;
+}
+
 @layer components {
- brand-color-light {
-   @apply #60A5FA
- }
- brand-color-dark {
-    @apply #1D4ED8
- }
- bg-color {
-    @apply #0F172A
- }
- stroke-color{
-    @apply #1E293B
- }
- text-color-primary {
-    @apply #F1F5F
- }
-text-color-secondary {
-    @apply #CBD5E1
- }
+  .brand-color-light {
+    @apply bg-brand-light;
+  }
+  .brand-color-dark {
+    @apply bg-brand-dark;
+  }
+  .bg-color {
+    @apply bg-bg-main;
+  }
+  .stroke-color {
+    @apply border-stroke-main;
+  }
+  .text-color-primary {
+    @apply text-text-primary;
+  }
+  .text-color-secondary {
+    @apply text-text-secondary;
+  }
+}
+@layer base {
+  h1 {
+    @apply text-[24px] leading-[135%] font-extrabold;
+  }
+  h2 {
+    @apply text-[16px] leading-[140%] font-extrabold;
+  }
+  h3 {
+    @apply text-[14px] leading-[140%] font-extrabold;
+  }
+  span {
+    @apply text-[14px] leading-[145%] font-semibold;
+  }
+  p {
+    @apply text-[14px] leading-[160%] font-normal;
+  }
 }
