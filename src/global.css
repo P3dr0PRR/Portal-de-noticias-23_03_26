@@ -46,3 +46,9 @@
     @apply text-[14px] leading-[160%] font-normal;
   }
 }
+
+@layer images {
+  .responsive-image {
+    @apply h-full object-cover rounded-[4px];
+  }
+}
