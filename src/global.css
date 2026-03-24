@@ -52,3 +52,9 @@
     @apply h-full object-cover rounded-[4px];
   }
 }
+
+@layer titleBG {
+  .title-bg {
+    @apply inline-block px-2 py-1 bg-brand-dark rounded-[4px];
+  }
+}
