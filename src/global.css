@@ -1,0 +1,20 @@
+@layer components {
+ brand-color-light {
+   @apply #60A5FA
+ }
+ brand-color-dark {
+    @apply #1D4ED8
+ }
+ bg-color {
+    @apply #0F172A
+ }
+ stroke-color{
+    @apply #1E293B
+ }
+ text-color-primary {
+    @apply #F1F5F
+ }
+text-color-secondary {
+    @apply #CBD5E1
+ }
+}
