@@ -2,6 +2,7 @@ import { Header } from "./header/header";
 import { Highlights } from "./highlights/highlights";
 import { MostRead } from "./assets/mostRead/mostRead";
 import { GeralContent } from "./geralcontent/geralcontent";
+import {Footer} from "./footer/footer";
 function App() {
   return (
     <main className="min-h-screen flex flex-col bg-bg-main">
@@ -11,6 +12,7 @@ function App() {
         <MostRead />
         <GeralContent />
       </section>
+      <Footer />
     </main>
   );
 }
