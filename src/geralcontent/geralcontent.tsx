@@ -8,7 +8,7 @@ import img15 from "../assets/imgs/Image 15.png";
 import img16 from "../assets/imgs/Image 16.png";
 import img17 from "../assets/imgs/Image 17.png";
 import img18 from "../assets/imgs/Image 18.png";
-import ads from "../assets/ads.png";
+import ads from "../assets/Ads.png";
 export function GeralContent() {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-[32px] items-start">
@@ -41,7 +41,11 @@ export function GeralContent() {
             </p>
           </div>
           <div className="w-40 h-28 overflow-hidden shrink-0">
-            <img src={img10} alt="Image 10" className="w-full h-full object-cover" />
+            <img
+              src={img10}
+              alt="Image 10"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
@@ -64,7 +68,11 @@ export function GeralContent() {
             </p>
           </div>
           <div className="w-40 h-28 overflow-hidden shrink-0">
-            <img src={img11} alt="Image 11" className="w-full h-full object-cover" />
+            <img
+              src={img11}
+              alt="Image 11"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
@@ -85,7 +93,11 @@ export function GeralContent() {
             </p>
           </div>
           <div className="w-40 h-28 overflow-hidden shrink-0">
-            <img src={img12} alt="Image 12" className="w-full h-full object-cover" />
+            <img
+              src={img12}
+              alt="Image 12"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
@@ -107,7 +119,11 @@ export function GeralContent() {
             </p>
           </div>
           <div className="w-40 h-28 overflow-hidden shrink-0">
-            <img src={img13} alt="Image 13" className="w-full h-full object-cover" />
+            <img
+              src={img13}
+              alt="Image 13"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>
@@ -126,22 +142,30 @@ export function GeralContent() {
 
         <div className="grid grid-cols-[auto_1fr] gap-4 mt-4 items-start border-b border-gray-700 pb-4">
           <div className="w-20 h-16 overflow-hidden shrink-0">
-            <img src={img14} alt="Image 14" className="w-full h-full object-cover" />
+            <img
+              src={img14}
+              alt="Image 14"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="grid grid-cols-1 gap-1">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-2 py-0.5 w-fit">
               Software
             </span>
             <h2 className="text-text-primary text-sm font-bold leading-snug line-clamp-2">
-              Aplicativo de monitoramento ambiental ganha destaque,
-              incentivando práticas ecológicas e promovendo a conscientização.
+              Aplicativo de monitoramento ambiental ganha destaque, incentivando
+              práticas ecológicas e promovendo a conscientização.
             </h2>
           </div>
         </div>
 
         <div className="grid grid-cols-[auto_1fr] gap-4 mt-4 items-start border-b border-gray-700 pb-4">
           <div className="w-20 h-16 overflow-hidden shrink-0">
-            <img src={img15} alt="Image 15" className="w-full h-full object-cover" />
+            <img
+              src={img15}
+              alt="Image 15"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="grid grid-cols-1 gap-1">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-2 py-0.5 w-fit">
@@ -149,14 +173,19 @@ export function GeralContent() {
             </span>
             <h2 className="text-text-primary text-sm font-bold leading-snug line-clamp-2">
               Óculos de realidade virtual com feedback tátil proporcionam uma
-              experiência sensorial completa, imergindo usuários em ambientes digitais.
+              experiência sensorial completa, imergindo usuários em ambientes
+              digitais.
             </h2>
           </div>
         </div>
 
         <div className="grid grid-cols-[auto_1fr] gap-4 mt-4 items-start border-b border-gray-700 pb-4">
           <div className="w-20 h-16 overflow-hidden shrink-0">
-            <img src={img16} alt="Image 16" className="w-full h-full object-cover" />
+            <img
+              src={img16}
+              alt="Image 16"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="grid grid-cols-1 gap-1">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-2 py-0.5 w-fit">
@@ -164,14 +193,19 @@ export function GeralContent() {
             </span>
             <h2 className="text-text-primary text-sm font-bold leading-snug line-clamp-2">
               Surge uma nova moeda digital baseada em tecnologias sustentáveis,
-              buscando minimizar o impacto ambiental associado à mineração de criptomoedas.
+              buscando minimizar o impacto ambiental associado à mineração de
+              criptomoedas.
             </h2>
           </div>
         </div>
 
         <div className="grid grid-cols-[auto_1fr] gap-4 mt-4 items-start border-b border-gray-700 pb-4">
           <div className="w-20 h-16 overflow-hidden shrink-0">
-            <img src={img17} alt="Image 17" className="w-full h-full object-cover" />
+            <img
+              src={img17}
+              alt="Image 17"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="grid grid-cols-1 gap-1">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-2 py-0.5 w-fit">
@@ -186,7 +220,11 @@ export function GeralContent() {
 
         <div className="grid grid-cols-[auto_1fr] gap-4 mt-4 items-start">
           <div className="w-20 h-16 overflow-hidden shrink-0">
-            <img src={img18} alt="Image 18" className="w-full h-full object-cover" />
+            <img
+              src={img18}
+              alt="Image 18"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="grid grid-cols-1 gap-1">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-2 py-0.5 w-fit">
