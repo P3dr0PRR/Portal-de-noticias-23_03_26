@@ -1,14 +1,14 @@
-import arrow from "../assets/icons/ArrowRight.svg";
-import img10 from "../assets/imgs/Image 10.png";
-import img11 from "../assets/imgs/Image 11.png";
-import img12 from "../assets/imgs/Image 12.png";
-import img13 from "../assets/imgs/Image 13.png";
-import img14 from "../assets/imgs/Image 14.png";
-import img15 from "../assets/imgs/Image 15.png";
-import img16 from "../assets/imgs/Image 16.png";
-import img17 from "../assets/imgs/Image 17.png";
-import img18 from "../assets/imgs/Image 18.png";
-import ads from "../assets/Ads.png";
+import arrow from "../../assets/icons/ArrowRight.svg";
+import img10 from "../../assets/imgs/Image 10.png";
+import img11 from "../../assets/imgs/Image 11.png";
+import img12 from "../../assets/imgs/Image 12.png";
+import img13 from "../../assets/imgs/Image 13.png";
+import img14 from "../../assets/imgs/Image 14.png";
+import img15 from "../../assets/imgs/Image 15.png";
+import img16 from "../../assets/imgs/Image 16.png";
+import img17 from "../../assets/imgs/Image 17.png";
+import img18 from "../../assets/imgs/Image 18.png";
+import ads from "../../assets/Ads.png";
 export function GeralContent() {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-[32px] items-start">

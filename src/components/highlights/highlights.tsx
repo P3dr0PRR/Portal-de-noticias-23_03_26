@@ -1,8 +1,8 @@
-import img1 from "../assets/imgs/Image 01.png";
-import img2 from "../assets/imgs/Image 02.png";
-import img3 from "../assets/imgs/Image 03.png";
-import img4 from "../assets/imgs/Image 04.png";
-import img5 from "../assets/imgs/Image 05.png";
+import img1 from "../../assets/imgs/Image 01.png";
+import img2 from "../../assets/imgs/Image 02.png";
+import img3 from "../../assets/imgs/Image 03.png";
+import img4 from "../../assets/imgs/Image 04.png";
+import img5 from "../../assets/imgs/Image 05.png";
 export function Highlights() {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 gap-[16px]">

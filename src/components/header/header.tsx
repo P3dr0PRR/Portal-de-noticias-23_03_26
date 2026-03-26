@@ -1,6 +1,6 @@
-import listIcon from "../assets/icons/List.svg";
-import logo from "../assets/Logo.svg";
-import search from "../assets/icons/MagnifyingGlass.svg";
+import listIcon from "../../assets/icons/List.svg";
+import logo from "../../assets/Logo.svg";
+import search from "../../assets/icons/MagnifyingGlass.svg";
 
 export function Header() {
   return (

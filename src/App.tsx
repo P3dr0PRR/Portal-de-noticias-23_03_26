@@ -1,8 +1,8 @@
-import { Header } from "./header/header";
-import { Highlights } from "./highlights/highlights";
+import { Header } from "./components/header/header";
+import { Highlights } from "./components/highlights/highlights";
 import { MostRead } from "./assets/mostRead/mostRead";
-import { GeralContent } from "./geralcontent/geralcontent";
-import {Footer} from "./footer/footer";
+import { GeralContent } from "./components/geralcontent/geralcontent";
+import { Footer } from "./components/footer/footer";
 function App() {
   return (
     <main className="min-h-screen flex flex-col bg-bg-main">
