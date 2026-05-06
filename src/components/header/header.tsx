@@ -18,8 +18,8 @@ export function Header() {
           <img src={logo} alt="Logo" className="h-8 w-auto" />
         </div>
         <div className="grid grid-flow-col auto-cols-max items-center gap-2 justify-self-end">
-          <h2 className="text-text-primary">buscar</h2>
-          <img src={search} alt="List" className="h-4 sm:h-6 md:h-8 w-auto" />
+          <h2 className="text-text-primary">search</h2>
+          <img src={search} alt="Search" className="h-4 sm:h-6 md:h-8 w-auto" />
         </div>
       </nav>
 
@@ -28,25 +28,25 @@ export function Header() {
         className="text-text-primary grid grid-cols-2 py-[14px] px-[32px] gap-4 md:grid-cols-7 items-center justify-items-center text-center border-y border-gray-700"
       >
         <a href="#" className="hover:text-brand-light">
-          Inteligencia Arttificial
+          Artificial Intelligence
         </a>
         <a href="#" className="hover:text-brand-light">
           Blockchain
         </a>
         <a href="#" className="hover:text-brand-light">
-          Hologramas
+          Holograms
         </a>
         <a href="#" className="hover:text-brand-light">
           Internet
         </a>
         <a href="#" className="hover:text-brand-light">
-          Vestíveis
+          Wearables
         </a>
         <a href="#" className="hover:text-brand-light">
-          Realidade Aumentada
+          Augmented Reality
         </a>
         <a href="#" className="hover:text-brand-light">
-          Realidade Virtual
+          Virtual Reality
         </a>
       </nav>
     </header>
