@@ -13,11 +13,11 @@ export function Highlights() {
         <div className="absolute inset-x-0 bottom-0 p-4 px-6">
           <figcaption>
             <span className="text-text-primary xl:text-xl title-bg">
-              Robótica
+              Robotics
             </span>
             <h2 className="text-text-primary md:text-md xl:text-2xl mt-8">
-              Robôs domésticos começam a ser adotados para tarefas diárias,
-              prometendo mais conforto e eficiência nas residências.
+              Domestic robots are starting to be adopted for daily
+              tasks, promising more comfort and efficiency in homes.
             </h2>
           </figcaption>
         </div>
@@ -30,11 +30,11 @@ export function Highlights() {
           <div className="absolute inset-x-0 bottom-0 p-4 px-6 overflow-hidden">
             <figcaption className="max-w-full">
               <span className="text-text-primary title-bg block truncate">
-                Hologramas
+                Holograms
               </span>
               <h2 className="text-text-primary mt-3 line-clamp-2 break-words">
-                Novo Smartphone Projetor 3D chega ao mercado, transformando a
-                forma como vemos nossas telas!
+                New 3D Projector Smartphone arrives at the market, transforming the
+                way we see our screens!
               </h2>
             </figcaption>
           </div>
@@ -49,8 +49,8 @@ export function Highlights() {
                 Internet
               </span>
               <h2 className="text-text-primary mt-3 line-clamp-2 break-words">
-                Tecnologia 6G chega às metrópoles brasileiras, prometendo
-                revolucionar a forma como vivemos e nos comunicamos
+                6G Technology arrives in Brazilian metropolitan areas, promising
+                to revolutionize the way we live and communicate
               </h2>
             </figcaption>
           </div>
@@ -62,11 +62,11 @@ export function Highlights() {
           <div className="absolute inset-x-0 bottom-0 p-4 px-6 overflow-hidden">
             <figcaption className="max-w-full">
               <span className="text-text-primary title-bg block truncate">
-                Vestíveis
+                Wearables
               </span>
               <h2 className="text-text-primary mt-3 line-clamp-2 break-words">
-                Empresa lança relógio inteligente capaz de monitorar a saúde
-                mental, oferecendo insights valiosos para o bem-estar pessoal.
+                Company launches smartwatch capable of monitoring mental health,
+                offering valuable insights for personal well-being.
               </h2>
             </figcaption>
           </div>
@@ -78,11 +78,11 @@ export function Highlights() {
           <div className="absolute inset-x-0 bottom-0 p-4 px-6 overflow-hidden">
             <figcaption className="max-w-full">
               <span className="text-text-primary title-bg block truncate">
-                Realidade Virtual
+                Virtual Reality
               </span>
               <h2 className="text-text-primary mt-3 line-clamp-2 break-words">
-                Escolas adotam a tecnologia VR para proporcionar experiências
-                imersivas, transformando a aprendizagem tradicional.
+                Schools adopt VR technology to provide immersive experiences,
+                transforming traditional learning.
               </h2>
             </figcaption>
           </div>
