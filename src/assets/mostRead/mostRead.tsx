@@ -8,9 +8,9 @@ export function MostRead() {
   return (
     <section>
       <header className="text-text-secondary grid grid-cols-[1fr_1fr] border-t border-gray-700 py-4">
-        <div className="justify-start">Mais lidas da semana</div>
+        <div className="justify-start">Most read this week</div>
         <div className="grid grid-cols-[auto_auto] items-center gap-2 justify-self-end">
-          <p className=" hover:text-brand-light">Ver Tudo</p>
+          <p className=" hover:text-brand-light">View All</p>
           <img src={arrow} alt="Arrow" className="h-4 w-auto " />
         </div>
       </header>
@@ -21,13 +21,13 @@ export function MostRead() {
           <div className="absolute inset-x-0 top-0 p-4 px-6">
             <figcaption>
               <span className="text-text-primary xl:text-xl title-bg">
-                Veículos
+                Flying Vehicles
               </span>
             </figcaption>
           </div>
           <h2 className="text-text-primary mt-3 line-clamp-2 break-words">
-            Protótipo de veículo voador é apresentado, marcando o início da era
-            dos transportes aéreos pessoais.
+            Prototype of a flying vehicle is presented, marking the beginning of
+            the era of personal aerial transportation.
           </h2>
         </div>
 
@@ -36,13 +36,13 @@ export function MostRead() {
           <div className="absolute inset-x-0 top-0 p-4 px-6">
             <figcaption>
               <span className="text-text-primary xl:text-xl title-bg">
-                Hologramas
+                Holograms
               </span>
             </figcaption>
           </div>
           <h2 className="text-text-primary mt-3 line-clamp-2 break-words">
-            Plataforma de videoconferência apresenta nova função de hologramas,
-            tornando as chamadas virtuais mais realistas e envolventes.
+            Video conferencing platform introduces new hologram feature, making
+            virtual calls more realistic and engaging.
           </h2>
         </div>
 
@@ -51,13 +51,14 @@ export function MostRead() {
           <div className="absolute inset-x-0 top-0 p-4 px-6">
             <figcaption>
               <span className="text-text-primary xl:text-xl title-bg">
-                Realidade virtual
+                Gaming
               </span>
             </figcaption>
           </div>
           <h2 className="text-text-primary mt-3 line-clamp-2 break-words">
-            Nova geração de consoles de videogame é lançada, trazendo gráficos
-            ultra-realistas e experiências de jogo totalmente envolventes.
+            A new generation of gaming consoles is launched, bringing
+            ultra-realistic graphics and completely immersive gaming
+            experiences.
           </h2>
         </div>
 
@@ -71,8 +72,8 @@ export function MostRead() {
             </figcaption>
           </div>
           <h2 className="text-text-primary mt-3 line-clamp-2 break-words">
-            Projeto busca oferecer internet de alta velocidade em áreas remotas
-            através de satélites.
+            Project aims to provide high-speed internet in remote areas through
+            satellites.
           </h2>
         </div>
       </div>
