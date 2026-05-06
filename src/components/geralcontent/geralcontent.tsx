@@ -15,10 +15,10 @@ export function GeralContent() {
       <div>
         <header className="text-text-secondary grid grid-cols-[1fr_1fr] border-t border-gray-700 py-4">
           <div className="justify-start">
-            Destaques de Inteligência Artificial
+            Highlights of Artificial Intelligence
           </div>
           <div className="grid grid-cols-[auto_auto] items-center gap-2 justify-self-end">
-            <p className="hover:text-brand-light">Ver Tudo</p>
+            <p className="hover:text-brand-light">View All</p>
             <img src={arrow} alt="Arrow" className="h-4 w-auto" />
           </div>
         </header>
@@ -26,18 +26,19 @@ export function GeralContent() {
         <div className="grid grid-cols-[1fr_auto] gap-6 mt-4 items-start border-b border-gray-700 pb-6">
           <div className="grid grid-cols-1 gap-2">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-3 py-1 w-fit">
-              Inteligência Artificial
+              Artificial Intelligence
             </span>
             <h2 className="text-text-primary font-bold text-lg leading-snug">
-              Empresa surpreende o mundo ao anunciar um algoritmo capaz de
-              prever eventos futuros com alta precisão.
+              Company surprises the world by announcing an algorithm capable of
+              predicting future events with high accuracy.
             </h2>
             <p className="text-text-secondary text-sm line-clamp-3">
-              Em um avanço surpreendente da inteligência artificial, uma empresa
-              anuncia o desenvolvimento de um algoritmo capaz de prever eventos
-              futuros com notável precisão. Descubra como essa tecnologia está
-              desafiando as fronteiras da previsão e quais são as implicações
-              para diversas áreas, desde finanças até planejamento estratégico.
+              In a surprising advance in artificial intelligence, a company
+              announces the development of an algorithm capable of predicting
+              future events with remarkable accuracy. Discover how this
+              technology is challenging the boundaries of prediction and what
+              the implications are for various areas, from finance to strategic
+              planning.
             </p>
           </div>
           <div className="w-40 h-28 overflow-hidden shrink-0">
@@ -52,19 +53,18 @@ export function GeralContent() {
         <div className="grid grid-cols-[1fr_auto] gap-6 mt-6 items-start border-b border-gray-700 pb-6">
           <div className="grid grid-cols-1 gap-2">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-3 py-1 w-fit">
-              Inteligência Artificial
+              Artificial Intelligence
             </span>
             <h2 className="text-text-primary font-bold text-lg leading-snug">
-              Dispositivo portátil promete traduzir instantaneamente diferentes
-              idiomas, facilitando a comunicação global.
+              Portable device promises to translate languages instantly,
+              facilitating global communication.
             </h2>
             <p className="text-text-secondary text-sm line-clamp-3">
-              Em um mundo cada vez mais conectado, a comunicação sem fronteiras
-              é essencial. Nesse contexto, um dispositivo portátil surge como um
-              verdadeiro herói linguístico, prometendo quebrar as barreiras
-              idiomáticas instantaneamente. Imagine poder se comunicar
-              fluentemente em qualquer lugar do mundo, independentemente do
-              idioma local.
+              In a world that is increasingly connected, communication without
+              borders is essential. In this context, a portable device emerges
+              as a linguistic hero, promising to break language barriers
+              instantly. Imagine being able to communicate fluently anywhere in
+              the world, regardless of the local language.
             </p>
           </div>
           <div className="w-40 h-28 overflow-hidden shrink-0">
@@ -79,17 +79,17 @@ export function GeralContent() {
         <div className="grid grid-cols-[1fr_auto] gap-6 mt-6 items-start border-b border-gray-700 pb-6">
           <div className="grid grid-cols-1 gap-2">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-3 py-1 w-fit">
-              Inteligência Artificial
+              Artificial Intelligence
             </span>
             <h2 className="text-text-primary font-bold text-lg leading-snug">
-              Criados para auxiliar idosos, robôs de companhia ganham
-              popularidade, oferecendo suporte emocional e físico aos usuários.
+              Created to assist the elderly, companion robots are gaining
+              popularity, offering emotional and physical support to users.
             </h2>
             <p className="text-text-secondary text-sm line-clamp-3">
-              A tecnologia não só avança, mas também busca tornar a vida mais
-              significativa para todas as gerações. No cenário atual, os robôs
-              sociais, projetados especialmente para oferecer apoio e companhia
-              aos idosos, estão ganhando destaque.
+              Technology not only advances but also seeks to make life more
+              meaningful for all generations. In the current scenario, social
+              robots, specially designed to provide support and companionship to
+              the elderly, are gaining prominence.
             </p>
           </div>
           <div className="w-40 h-28 overflow-hidden shrink-0">
@@ -104,18 +104,18 @@ export function GeralContent() {
         <div className="grid grid-cols-[1fr_auto] gap-6 mt-6 items-start">
           <div className="grid grid-cols-1 gap-2">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-3 py-1 w-fit">
-              Inteligência Artificial
+              Artificial Intelligence
             </span>
             <h2 className="text-text-primary font-bold text-lg leading-snug">
-              Aplicativo utiliza inteligência artificial para ajudar usuários a
-              manterem o foco e aumentarem a produtividade no dia a dia.
+              App uses artificial intelligence to help users maintain focus and
+              increase productivity in daily life.
             </h2>
             <p className="text-text-secondary text-sm line-clamp-3">
-              No turbilhão da vida moderna, onde distrações são abundantes, um
-              aplicativo inovador surge como um aliado indispensável para quem
-              busca maior concentração e eficiência no cotidiano. Utilizando
-              avançados algoritmos de inteligência artificial, este aplicativo
-              promete mais do que simplesmente gerenciar tarefas.
+              In the whirlwind of modern life, where distractions are abundant,
+              an innovative app emerges as an indispensable ally for those
+              seeking greater concentration and efficiency in their daily
+              routine. Using advanced artificial intelligence algorithms, this
+              app promises more than simply managing tasks.
             </p>
           </div>
           <div className="w-40 h-28 overflow-hidden shrink-0">
@@ -133,9 +133,9 @@ export function GeralContent() {
           <img src={ads} alt="ads" className="w-full responsive-image" />
         </div>
         <header className="text-text-secondary grid grid-cols-[1fr_1fr] border-t border-gray-700 py-4 mt-4">
-          <div className="justify-start">Viu isso aqui?</div>
+          <div className="justify-start">Viewed this here ?</div>
           <div className="grid grid-cols-[auto_auto] items-center gap-2 justify-self-end">
-            <p className="hover:text-brand-light">Ver Tudo</p>
+            <p className="hover:text-brand-light">View All</p>
             <img src={arrow} alt="Arrow" className="h-4 w-auto" />
           </div>
         </header>
@@ -153,8 +153,8 @@ export function GeralContent() {
               Software
             </span>
             <h2 className="text-text-primary text-sm font-bold leading-snug line-clamp-2">
-              Aplicativo de monitoramento ambiental ganha destaque, incentivando
-              práticas ecológicas e promovendo a conscientização.
+              Environmental monitoring app gains prominence, encouraging
+              eco-friendly practices and promoting awareness.
             </h2>
           </div>
         </div>
@@ -169,12 +169,11 @@ export function GeralContent() {
           </div>
           <div className="grid grid-cols-1 gap-1">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-2 py-0.5 w-fit">
-              Realidade Virtual
+              Virtual Reality
             </span>
             <h2 className="text-text-primary text-sm font-bold leading-snug line-clamp-2">
-              Óculos de realidade virtual com feedback tátil proporcionam uma
-              experiência sensorial completa, imergindo usuários em ambientes
-              digitais.
+              Virtual reality glasses with haptic feedback provide a complete
+              sensory experience, immersing users in digital environments.
             </h2>
           </div>
         </div>
@@ -189,12 +188,12 @@ export function GeralContent() {
           </div>
           <div className="grid grid-cols-1 gap-1">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-2 py-0.5 w-fit">
-              Criptomoedas
+              Cryptocurrencies
             </span>
             <h2 className="text-text-primary text-sm font-bold leading-snug line-clamp-2">
-              Surge uma nova moeda digital baseada em tecnologias sustentáveis,
-              buscando minimizar o impacto ambiental associado à mineração de
-              criptomoedas.
+              A new digital currency based on sustainable technologies emerges,
+              aiming to minimize the environmental impact associated with
+              cryptocurrency mining.
             </h2>
           </div>
         </div>
@@ -212,8 +211,8 @@ export function GeralContent() {
               Drones
             </span>
             <h2 className="text-text-primary text-sm font-bold leading-snug line-clamp-2">
-              Empresas de e-commerce implementam frota de drones para entregas
-              rápidas, transformando o cenário do comércio online.
+              E-commerce companies implement drone fleets for fast deliveries,
+              transforming the online shopping landscape.
             </h2>
           </div>
         </div>
@@ -228,11 +227,11 @@ export function GeralContent() {
           </div>
           <div className="grid grid-cols-1 gap-1">
             <span className="text-text-primary text-xs font-semibold uppercase bg-brand px-2 py-0.5 w-fit">
-              Impressão 3D
+              3D Printing
             </span>
             <h2 className="text-text-primary text-sm font-bold leading-snug line-clamp-2">
-              Tecnologia inovadora permite a impressão 3D de órgãos humanos,
-              revolucionando a medicina e a lista de espera por transplantes.
+              Innovative technology enables 3D printing of human organs,
+              revolutionizing medicine and transplant waiting lists.
             </h2>
           </div>
         </div>
